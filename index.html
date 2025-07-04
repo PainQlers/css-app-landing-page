@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./ContactSection.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./ContactSection.css" />
     <title>Acme App</title>
   </head>
   <body>
@@ -115,5 +117,33 @@
         </p>
       </div>
     </div>
+    <section class="contact-section">
+      <h1 class="contact-title">Get in Touch</h1>
+      <form class="contact-form">
+        <label for="name" class="contact-label">Name</label>
+        <input type="text" id="name" name="name" class="contact-input" placeholder="John Doe" required />
+
+        <label for="email" class="contact-label">Email</label>
+        <input type="email" id="email" name="email" class="contact-input" placeholder="john@example.com" required />
+
+        <label for="message" class="contact-label">Message</label>
+        <textarea id="message" name="message" class="contact-textarea" placeholder="Your message..." required></textarea>
+
+        <button type="submit" class="contact-submit">Submit</button>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-left">
+          Acme productivity app ©2024
+        </div>
+        <div class="footer-right">
+          <a href="#" class="footer-link">FAQ</a>
+          <a href="#" class="footer-link">Terms</a>
+          <a href="#" class="footer-link">AI Policy</a>
+          <a href="#" class="footer-link">Pricing</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

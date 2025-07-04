@@ -81,3 +81,121 @@ body {
     max-width: 400px;
   }
 }
+
+/* Contact Section Styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #F6F6FB;
+    font-family: 'Noto Sans Symbols', sans-serif;
+}
+.contact-section {
+
+    max-width: 1200px;
+    margin: 36px auto 0 auto;
+    background: #fff;
+    border-radius: 24px;
+    padding: 48px 32px 40px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #1a1a2c;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.contact-form {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.contact-label {
+    font-size: 1rem;
+    color: #1a1a2c;
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+.contact-input,
+.contact-textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e5e7ef;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #f8f8fc;
+    color: #1a1a2c;
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+    border: 1.5px solid #1a1a2c;
+}
+
+.contact-textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+.contact-submit {
+    margin-top: 12px;
+    width: 100%;
+    padding: 12px;
+    background: #1a1a2c;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.contact-submit:hover {
+    background: #000000;
+}
+
+/* Footer Styles */
+.footer {
+    width: 100%;
+    background: none;
+    font-size: 0.8rem;
+    color: #1a1a2c;
+    box-sizing: border-box;
+    margin: 60px 0px;
+}
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding: 0 24px;
+}
+.footer-left {
+  color: #1a1a2c;
+}
+.footer-right {
+  display: flex;
+  gap: 24px;
+}
+.footer-link {
+  color: #1a1a2c;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.footer-link:hover {
+  text-decoration: underline;
+}
+
