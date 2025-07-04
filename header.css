@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2%;
+    padding: 1%;
+    height: 15vw;
+}
+
+.logo{
+    width: 80px;
+    height: 20px;
+}
+
+.right-nav{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
